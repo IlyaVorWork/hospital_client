@@ -1,0 +1,25 @@
+.header {
+    padding: 0 1rem;
+    box-shadow: 0 1px 0 0 var(--neutral-4);
+}
+
+.footer {
+    padding: 1rem 2.5rem;
+    background-color: var(--primary-1);
+}
+
+.footer span {
+    flex: 1;
+    font-size: 0.875rem;
+}
+
+.footer span:last-child {
+    text-align: right;
+}
+
+.content {
+    width: 100vw;
+    flex: 1;
+    padding: 2rem 0;
+    gap: 2rem;
+}
